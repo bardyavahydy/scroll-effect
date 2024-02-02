@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: teal;
+    color: #fff;
+    padding: 25px 15px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-name{
+    font-size: 25px;
+    font-weight: bold;
+} 
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+} 
+
+.menu__list{
+    margin-left: 15px;
+}
+
+.title-page{
+    font-size: 45px;
+} 
+
+.main{
+    padding: 100px 0 50px;
+    text-align: justify;
+}
+
+.title-page__span{
+    font-size: 35px;
+    color: dodgerblue;
+}
